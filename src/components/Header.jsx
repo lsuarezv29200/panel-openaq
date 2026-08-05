@@ -2,7 +2,7 @@
  * Encabezado superior de cada página.
  * Recibe título y subtítulo por props para que cada página lo personalice.
  */
-function Header({ title, subtitle, userName = "Israel Suárez", userRole = "Estudiante" }) {
+function Header({ title, subtitle, userName = "Israel Suárez Vera", userRole = "Estudiante" }) {
   const initials = userName
     .split(" ")
     .map((part) => part[0])
